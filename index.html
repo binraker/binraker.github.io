@@ -5,10 +5,30 @@
 		<title>Peter Black virtual gallery</title>
 		<style>
 			body { margin: 0; }
+			#instructions {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            background: rgba(0,0,0,0.7);
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            z-index: 100;
+        }
 		</style>
-		<script type="module" crossorigin src="/assets/index-1QEkKnC2.js"></script>
+		<script type="module" crossorigin src="/assets/index-Cnedc0FJ.js"></script>
 	</head>
-	<body>		
+	<body>	    <div id="instructions">
+        <strong>Controls:</strong><br>
+        W - Move Forward<br>
+        S - Move Backward<br>
+        A - Rotate Left<br>
+        D - Rotate Right<br>
+        Q - Look Up<br>
+        E - Look Down
+    </div>
+	
 
 	</script>
 	<div id="progress-container" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; height: 20px; background: #ccc; display: none;">
